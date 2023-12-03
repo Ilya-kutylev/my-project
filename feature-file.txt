@@ -1,1 +1,3 @@
 Feature text file
+
+Add new-feature
