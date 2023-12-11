@@ -7,6 +7,6 @@ jobs:
       - name: Print to console
         run: echo Hello GH Actions!
       - name: Print a few lines
-        run: 
+        run: |
           echo First line
           echo Second file
