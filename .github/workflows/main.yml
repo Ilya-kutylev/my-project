@@ -1,7 +1,7 @@
 name: Demo view workflow
 on: [workflow_dispatch]
 jobs:
-  Demo print:
+  Demo-print:
     runs-on: windows-latest
     steps:
       - name: Print Hello words!
