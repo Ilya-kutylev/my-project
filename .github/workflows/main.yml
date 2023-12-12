@@ -1,12 +1,10 @@
-name: Demo Workflow
+name: Demo view workflow
 on: [workflow_dispatch]
 jobs:
-  print_demo:
+  Demo print:
     runs-on: windows-latest
     steps:
-      - name: Print to console
-        run: echo Hello GH Actions!
-      - name: Print a few lines
-        run: |
-          echo First line
-          echo Second file
+      - name: Print Hello words!
+        run: echo Hello words Python
+      - name: Print love is Python!
+        run: echo I love is Python!
